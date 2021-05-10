@@ -7,7 +7,7 @@ import {
 
 const Routes = props => (
     <Switch>
-        <Route exact  path="/login">
+        <Route exact  path="/">
             <h2>Tela de Login</h2>
         </Route>
 
