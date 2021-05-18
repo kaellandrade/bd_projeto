@@ -21,9 +21,8 @@ const toBootstrapCols = (string) =>{
  */
 const Grid = props => {
     const gridClass = toBootstrapCols(props.cols || '12');
-    console.log(gridClass);
     return (
-        <div className={gridClass}>
+        <div className={`${gridClass} ${props.className}`}>
             {props.children}
         </div>
     )
