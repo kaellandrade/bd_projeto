@@ -3,6 +3,8 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
+  background-color: #000000 !important;
+
 }
 /* Header  */
 .navbar{
@@ -10,15 +12,30 @@ body {
 }
 /* Section Login */
 .tela-login{
-    height: calc(100vh - 56px);
+    height: calc(100vh - 59px);
     width: 100%;
     color: whitesmoke;
     background-image: url('../assets/background_login.png') !important;
     background-repeat: no-repeat;
     background-size: 100vw;
     background-color: #000000;
+    display: flex;
+    align-items: center;
 }
 /* Buttons */
 .btn-danger{
     background-color: #E50914 !important;
+}
+
+/* Formulário estilo*/
+.form-control{
+    background-color: #333333 !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: rgba(245, 245, 245, 0.726) !important;
+    padding: 0.8em !important;
+}
+.form-check-input{
+    background-color: #333333 !important;
+    color: #e50914 !important;
 }
