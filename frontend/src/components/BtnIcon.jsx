@@ -9,10 +9,9 @@ const BtnIcon = (props) => {
     let style = props.outline? `outline-` : '';
     console.log(`btn btn-${style}${color}`);
     return (
-        <button icon onClick={props.onClick} className={`btn btn-${style}${color}`}>
-            {props.children}
+        <button onClick={props.onClick} className={`btn btn-${style}${color}`}>
+            <i className={props.icon}></i> {props.children}
         </button>
     )
-
 }
 export default BtnIcon;
