@@ -1,5 +1,6 @@
 import React from 'react';
 import Container from '../layout/Container';
+import Logo from '../../assets/logo.svg'
 
 /**
  * Componente cabeçalho
@@ -7,8 +8,10 @@ import Container from '../layout/Container';
 const Header = _ => (
     <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <Container container='container-fluid'>
-                <a className="navbar-brand" href="#">LOGO AQUI</a>
+            <Container container='container'>
+                <a className="navbar-brand" href="#">
+                    <img src={Logo} alt=""/>
+                </a>
 
                 <ul className="navbar-nav d-flex flex-row">
                     <li className="nav-item">
