@@ -9,7 +9,7 @@ const Header = _ => (
     <header>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
             <Container container='container'>
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="http://10.0.0.109:3000">
                     <img src={Logo} alt=""/>
                 </a>
 
