@@ -3,7 +3,7 @@ body {
   height: 100%;
   width: 100%;
   margin: 0;
-  background-color: #000000 !important;
+  font-family: 'Raleway', sans-serif !important;
 
 }
 /* Header  */
@@ -21,10 +21,13 @@ body {
     background-color: #000000;
     display: flex;
     align-items: center;
+    background-attachment: fixed;
 }
 /* Buttons */
 .btn-danger{
     background-color: #E50914 !important;
+    font-weight: bold;
+
 }
 
 /* Formulário estilo*/
@@ -37,5 +40,9 @@ body {
 }
 .form-check-input{
     background-color: #333333 !important;
-    color: #e50914 !important;
+}
+
+/* Títulos e subtítulos */
+.sub-title{
+    font-weight: 300 !important;
 }

@@ -9,7 +9,7 @@ const Login = props => {
         <Container>
             <Row>
                     <Grid cols='12 12 6 4' className='offset-md-3 offset-lg-4'>
-                        <h2 className='mb-5'>Login</h2>
+                        <h2 className='mb-5 sub-title'>Login</h2>
                         <form action="">
                             <div className='mb-5'>
                                 <input placeholder='E-mail' id='InputEmail' type="email" className='form-control' />
