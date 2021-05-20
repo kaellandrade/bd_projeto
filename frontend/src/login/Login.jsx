@@ -2,6 +2,7 @@ import React from 'react';
 import Container from '../common/layout/Container';
 import Grid from '../common/layout/Grid';
 import Row from '../common/layout/Row';
+import Footer from '../common/template/Footer';
 import BtnIcon from '../components/BtnIcon';
 
 const Login = props => {
@@ -27,14 +28,9 @@ const Login = props => {
                         </form>
                     </Grid>
             </Row>
+            {/* <Footer/> */}
         </Container>
     )
 }
 
 export default Login;
-
-{/* <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div> */}
