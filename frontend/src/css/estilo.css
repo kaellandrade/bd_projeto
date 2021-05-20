@@ -11,7 +11,8 @@ body {
     background-color: #000000 !important;
 }
 /* Section Login */
-.tela-login{
+.tela-login,
+.tela-404{
     height: calc(100vh - 59px);
     width: 100%;
     overflow: auto;
@@ -23,7 +24,6 @@ body {
     background-size: 100vw;
     display: flex;
     align-items: center;
-    background-attachment: fixed;
 }
 /* Buttons */
 .btn-danger{

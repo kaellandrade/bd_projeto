@@ -6,7 +6,7 @@ const Footer = props => (
             Todos os direitos reservados <a target='_blank' href="https://www.netflix.com/br/">Netflix</a>
         </div>
         <div>
-            <i class="fab fa-react fa-spin"></i>
+            <i className="fab fa-react fa-spin"></i>
         </div>
     </footer>
 );

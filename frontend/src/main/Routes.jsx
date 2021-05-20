@@ -7,6 +7,7 @@ import Grid from '../common/layout/Grid';
 import { Switch, Route } from "react-router-dom";
 import Content from '../common/template/Content';
 import Login from '../login/Login';
+import Notfound from '../common/template/NotFound';
 
 const Routes = props => (
     <Switch>
@@ -23,8 +24,8 @@ const Routes = props => (
         </Route>
 
         <Route exact path="*">
-            <Content>
-                <h2>Não encontrado</h2>
+            <Content className='tela-404'>
+                <Notfound/>
             </Content>
         </Route>
 
