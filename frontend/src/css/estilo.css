@@ -25,6 +25,26 @@ body {
     display: flex;
     align-items: center;
 }
+/* Section Cadastro */
+.tela-cadastro{
+    background-color: black;
+}
+.banner{
+    background-image: url('../assets/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    color: white;
+    text-align: center;
+}
+.title-banner{
+    text-transform: uppercase;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-weight: bold !important;
+    font-size: 2.5em;
+}
+
 /* Buttons */
 .btn-danger{
     background-color: #E50914 !important;

@@ -5,6 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import Content from '../common/template/Content';
 import Login from '../login/Login';
 import Notfound from '../common/template/NotFound';
+import Cadastro from '../cadastro-filmes/Cadastro';
 
 const Routes = props => (
     <Switch>
@@ -14,9 +15,9 @@ const Routes = props => (
             </Content>
         </Route>
 
-        <Route exact path="/listaFimes">
-            <Content>
-                <h2>Listar Filmes</h2>
+        <Route exact path="/cadastro">
+            <Content className='tela-cadastro'>
+                <Cadastro/>
             </Content>
         </Route>
 
