@@ -9,7 +9,7 @@ const BtnIcon = (props) => {
     let style = props.outline? `outline-` : '';
     console.log(`btn btn-${style}${color}`);
     return (
-        <button onClick={props.onClick} className={`btn btn-${style}${color}`}>
+        <button type="submit" onClick={props.onClick} className={`btn btn-${style}${color}`}>
             <i className={props.icon}></i> {props.children}
         </button>
     )
