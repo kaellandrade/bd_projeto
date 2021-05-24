@@ -5,13 +5,13 @@ import {Link} from "react-router-dom";
  * Componente Botão com Icon
  * Classes do Bootstrap [primary, secondary, success, dangers, info, light, dark]
  */
-const BtnIcon = (props) => {
+const LinkIcon = (props) => {
     let color =  props.color || 'primary';
     let style = props.outline? `outline-` : '';
     return (
-        <button type="submit" onClick={props.onClick} className={`btn btn-${style}${color}`}>
+        <Link to={props.to} className={`btn btn-${style}${color}`}>
             <i className={props.icon}></i> {props.children}
-        </button>
+        </Link>
     )
 }
-export default BtnIcon;
+export default LinkIcon;

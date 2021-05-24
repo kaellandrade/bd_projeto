@@ -1,13 +1,14 @@
 import React from "react";
 import BtnIcon from "../components/BtnIcon";
 import { useState } from "react";
+import LinkIcon from "../components/LinkIcon";
 /**
  * Formulário da tela de login;
  */
 const Form = (props) => {
   const [formValues, setFormValues] = useState({});
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e) => {    //Função responsável pela mudança no estado da aplicação
     const { name, value, type, checked } = e.target;
     const isCheckbox = type === "checkbox";
     const data = formValues[name] || {};
@@ -19,7 +20,7 @@ const Form = (props) => {
     setFormValues({ ...formValues, [name]: newValue });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e) => { //Função que devolve os dados tratados
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
@@ -65,9 +66,9 @@ const Form = (props) => {
         </label>
       </div>
       <div className="d-grid gap-2">
-        <BtnIcon color="danger" icon="fas fa-sign-in-alt">
+        <LinkIcon to="/cadastro" color="danger" icon="fas fa-sign-in-alt">
           Entrar
-        </BtnIcon>
+        </LinkIcon>
       </div>
     </form>
   );

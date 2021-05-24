@@ -29,6 +29,12 @@ body {
 .tela-cadastro{
     background-color: black;
 }
+
+.tela-cadastro{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
 .banner{
     background-image: url('../assets/banner.png');
     background-position: center;
@@ -49,7 +55,6 @@ body {
 .btn-danger{
     background-color: #E50914 !important;
     font-weight: bold;
-
 }
 
 /* Formulário estilo*/
