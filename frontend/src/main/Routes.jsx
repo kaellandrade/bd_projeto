@@ -22,7 +22,7 @@ const Routes = props => (
         </Route>
 
         <Route path="/sobre" component={Sobre}>
-            <Content className='tela-cadastro'>
+            <Content className='tela-sobre'>
                 <Sobre/>
             </Content>
         </Route>

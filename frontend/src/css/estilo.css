@@ -99,3 +99,13 @@ body {
     color: #e50914 !important;
 
 }
+
+.tela-sobre p{
+    text-indent: 0.5em !important;
+    text-align: left;
+}
+.fist-l::first-letter{
+    font-size: 3em !important;
+    color:#344c9d;
+    font-weight: 300;
+}
