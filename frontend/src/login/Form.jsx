@@ -1,7 +1,5 @@
 import React from "react";
-import BtnIcon from "../components/BtnIcon";
 import { useState } from "react";
-import LinkIcon from "../components/LinkIcon";
 /**
  * Formulário da tela de login;
  */
@@ -13,7 +11,7 @@ const Form = (props) => {
     const isCheckbox = type === "checkbox";
     const data = formValues[name] || {};
     if (isCheckbox) {
-        data[value] = checked
+      data[value] = checked
     }
     console.log(data);
     const newValue = isCheckbox ? data : value;
@@ -24,6 +22,9 @@ const Form = (props) => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
+
+    // Caso a atutenticação seja válida será redirecionado para tela de cadastro;
+    window.location.href = 'http://localhost:3000/cadastro';
     console.log(data);
   };
 
@@ -31,20 +32,20 @@ const Form = (props) => {
     <form action="" onSubmit={handleSubmit}>
       <div className="mb-5">
         <input
-          name = "email"
+          name="email"
           placeholder="E-mail"
           id="InputEmail"
           type="email"
           onChange={handleInputChange}
-          value = {formValues.email || ""}
+          value={formValues.email || ""}
           className="form-control"
         />
       </div>
       <div className="mb-5">
         <input
-          name = "senha"
+          name="senha"
           onChange={handleInputChange}
-          value = {formValues.senha || ""}
+          value={formValues.senha || ""}
           placeholder="Senha"
           id="Inputpass"
           type="password"
@@ -66,9 +67,7 @@ const Form = (props) => {
         </label>
       </div>
       <div className="d-grid gap-2">
-        <LinkIcon to="/cadastro" color="danger" icon="fas fa-sign-in-alt">
-          Entrar
-        </LinkIcon>
+        <button className='btn btn-danger' type="submit">Entrar</button>
       </div>
     </form>
   );
