@@ -24,7 +24,7 @@ const Form = (props) => {
     const data = Object.fromEntries(formData);
 
     // Caso a atutenticação seja válida será redirecionado para tela de cadastro;
-    if (data.email == 'mika@gmail.com' && data.senha == '123') //Exemplos de teste
+    if (data.email != '' && data.senha != '') //Exemplos de teste
       window.location.href = 'http://localhost:3000/cadastro';
     else
       alert('Senha ou usuário inválido')
