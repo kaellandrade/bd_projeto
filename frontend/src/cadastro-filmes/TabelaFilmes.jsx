@@ -39,19 +39,23 @@ const TabelaFilmes = props => {
                     <th scope="row">00124</th>
                     <td>O Senhor dos Anéis</td>
                     <td>3:35</td>
-                </tr> <tr>
+                </tr>
+                <tr>
                     <th scope="row">00124</th>
                     <td>O Senhor dos Anéis</td>
                     <td>3:35</td>
-                </tr> <tr>
+                </tr>
+                <tr>
                     <th scope="row">00124</th>
                     <td>O Senhor dos Anéis</td>
                     <td>3:35</td>
-                </tr> <tr>
+                </tr>
+                <tr>
                     <th scope="row">00124</th>
                     <td>O Senhor dos Anéis</td>
                     <td>3:35</td>
-                </tr> <tr>
+                </tr>
+                <tr>
                     <th scope="row">00124</th>
                     <td>O Senhor dos Anéis</td>
                     <td>3:35</td>

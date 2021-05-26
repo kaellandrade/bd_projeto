@@ -13,7 +13,7 @@ module.exports = {
         contentBase: path.resolve(__dirname, './public'),
         port: 3000,
         index: "index.html",
-        historyApiFallback: true,
+        historyApiFallback: true
     },
     module: {
         rules: [{
