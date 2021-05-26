@@ -13,8 +13,6 @@ body {
 /* Section Login */
 .tela-login,
 .tela-404{
-    height: calc(100vh - 59px);
-    width: 100%;
     overflow: auto;
     width: auto !important;
     color: whitesmoke;
@@ -26,29 +24,29 @@ body {
     align-items: center;
 }
 /* Section Cadastro */
-.tela-cadastro{
-    background-color: black;
-}
 
 .tela-cadastro{
     background-color: black;
     text-align: center;
     color: white;
 }
+
 .banner{
-    background-image: url('../assets/banner.png');
+    background-image: url('../assets/banner.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vw;
     color: white;
     text-align: center;
+    box-shadow: 20px 0px 100px black inset;
 }
 .title-banner{
     text-transform: uppercase;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     font-weight: bold !important;
     font-size: 2.5em;
+    background-color: #0000005e;
 }
 
 /* Buttons */
@@ -108,4 +106,45 @@ body {
     font-size: 3em !important;
     color:#344c9d;
     font-weight: 300;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    html{
+        font-size: 1.2em !important;
+    }
+
+    .tela-login,
+    .tela-404{
+        background-position: center !important;
+  
+    }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
+@media(min-height: 481px){
+    .tela-login,
+    .tela-404{
+        height: calc(100vh - 59px);
+        width: 100%;
+    }
 }
