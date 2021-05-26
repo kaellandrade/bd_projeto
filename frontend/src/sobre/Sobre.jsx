@@ -10,7 +10,7 @@ const Sobre = (props) => {
     <Container>
       <Row>
         <h2 className='display-3 mb-5 mt-5 text-center' >Banco De Dados <small>(Trabalho Prático)</small></h2>
-        <Grid cols='12 12 6'>
+        <Grid cols='12 12 6' className='d-flex align-items-center'>
           <img className='img-fluid mb-5' src={Dcomp} alt="" />
         </Grid>
         <Grid cols='12 12 6'>
