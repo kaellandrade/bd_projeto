@@ -28,7 +28,7 @@ const Form = (props) => {
 
   return (
     <form action="" onSubmit={handleSubmit}>
-      <div className="mb-5">
+      <div className="mb-3">
         <input
           name="nome"
           placeholder="Hobbit"
@@ -39,7 +39,7 @@ const Form = (props) => {
           className="form-control"
         />
       </div>
-      <div className="mb-5">
+      <div className="mb-3">
         <input
           name="genero"
           placeholder="Gênero"
@@ -50,7 +50,7 @@ const Form = (props) => {
           className="form-control"
         />
       </div>
-      <div className="mb-5">
+      <div className="mb-3">
         <input
           name="ano"
           placeholder="Ano de Lançamento"
@@ -61,7 +61,7 @@ const Form = (props) => {
           className="form-control"
         />
       </div>
-      <div className="mb-5">
+      <div className="mb-3">
         <input
           name="direcao"
           placeholder="Direção"
@@ -72,13 +72,13 @@ const Form = (props) => {
           className="form-control"
         />
       </div>
-      <div className="mb-5">
+      <div className="mb-3">
         <input
           id="Inputpass"
           name="tempo"
           type="time"
           className="form-control"
-          value={formValues.tempo || ""}
+          value={formValues.tempo || "00:00:01"}
           onChange={handleInputChange}
         />
       </div>
