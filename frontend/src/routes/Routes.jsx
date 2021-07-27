@@ -6,6 +6,8 @@ import Login from '../components/login/Login';
 import Notfound from '../components/NotFound';
 import Cadastro from '../components/cadastro-filmes/Cadastro';
 import Sobre from '../components/Sobre';
+import Catalogo from '../components/catalago/Catalago';
+
 
 const Routes = props => (
     <Switch>
@@ -24,6 +26,12 @@ const Routes = props => (
         <Route path="/sobre" component={Sobre}>
             <Content className='tela-sobre'>
                 <Sobre/>
+            </Content>
+        </Route>
+
+        <Route path="/catalogo" component={Catalogo}>
+            <Content className='tela-catalogo'>
+                <Catalogo/>
             </Content>
         </Route>
 
