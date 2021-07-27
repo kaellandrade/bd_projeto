@@ -23,6 +23,10 @@ Iaas ou Paas (Azure, Aws, etc.).
 - [React](https://pt-br.reactjs.org/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Node](https://nodejs.org/en/)
+- [Netflix](https://www.netflix.com/br/)
+- [Prime](https://www.primevideo.com/?_encoding=UTF8&language=pt_br)
+
+
 
 
 
