@@ -12,4 +12,13 @@ grupo deve usar uma **estrutura de nuvem disponível**. A recomendação é util
 Heroku (tutorial disponibilizado no SIGAA), mas o grupo pode usar qualquer outro
 Iaas ou Paas (Azure, Aws, etc.).
 
+# Telas
+![Amigo Secreto](../telas/cadastro.png)
+
 # Referências
+- [React](https://pt-br.reactjs.org/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Node](https://nodejs.org/en/)
+
+
+
