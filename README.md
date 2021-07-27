@@ -13,7 +13,7 @@ Heroku (tutorial disponibilizado no SIGAA), mas o grupo pode usar qualquer outro
 Iaas ou Paas (Azure, Aws, etc.).
 
 # Telas
-![Logion](telas/tela_logion1.png)
+![Logion](telas/tela_login1.png)
 ![Catalogo](telas/catalogo.png)
 ![Cadastro](telas/cadastro.png)
 ![Cadastro](telas/catalogo2.png)
