@@ -13,7 +13,7 @@ Heroku (tutorial disponibilizado no SIGAA), mas o grupo pode usar qualquer outro
 Iaas ou Paas (Azure, Aws, etc.).
 
 # Telas
-![Amigo Secreto](../telas/cadastro.png)
+![Cadastro](telas/cadastro.png)
 
 # Referências
 - [React](https://pt-br.reactjs.org/)
