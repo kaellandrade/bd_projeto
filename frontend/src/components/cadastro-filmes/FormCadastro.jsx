@@ -53,7 +53,7 @@ const Form = (props) => {
           <div className="mb-3">
             <input
               name="titulo"
-              placeholder="Hobbit"
+              placeholder="Título"
               id="InputTitulo"
               type="text"
               value={formValues.titulo}

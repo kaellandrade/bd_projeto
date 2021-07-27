@@ -38,7 +38,7 @@ const TabelaFilmes = props => {
         <table className='table table-hover table-dark table-sm'>
             <thead>
                 <tr>
-                    <th scope="col">Titulo</th>
+                    <th scope="col">Título</th>
                     <th scope="col">Id Título</th>
                     <th scope="col">Data Lançamento</th>
                     <th scope="col">Editar</th>
